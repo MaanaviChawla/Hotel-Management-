@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+}
+.land{
+    background-image: url("Download2.jpg");
+    Height: 812px;
+    width:100%;
+    background-size: cover;
+    background-position: center;   
+}
+/* Navbar  */
+.navbar{
+    height: 90px;
+    width:100%;
+    display: flex;
+}
+.logo{
+    width:168px;
+}
+.logo img{
+    height:65px;
+    width:75px;
+    padding: 20px 46px 0;
+}
+.allele{
+    margin-top:28px;
+    height:20px;
+    width:1262px;
+    display:flex
+}
+.navbarelements{
+    font-size: 17px;
+    font-family:Inter, sans-serif;
+    color: #FFFFFF;
+    height:20px;
+    width:663px;
+    justify-content: space-between;
+    display:flex;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    margin : 16px 0px 0px;
+}
+.space{
+    width:300px;
+    height:47px; 
+}
+.rest{
+    height:47px;
+    width:308px;
+    display:flex;
+}
+.login{
+    font-size: 17px;
+    font-family:Inter, sans-serif;
+    color: #FFFFFF;
+    margin:10px;
+}
+.bookbtn button{
+    width:175px;
+    Height: 47px;
+    background-color: #ad8b3a;
+    border:#ad8b3a;
+    color: #FFFFFF;
+    border-radius: 2px;
+    font-size: 14px;
+    margin-left: 5px;;
+}
+.middle{
+    display:flex;
+    position:relative;
+    top:550px;
+}
+.txt{
+    height:64px;
+    Width:900px;
+    color: #FFFFFF;
+    font-family: Lorem ipsum dolor sit amet;
+    font-size: 50px;
+    position:relative;
+    left: 200px;
+    line-height: 120%;
+}
+.collage{
+    height:45px;
+    width:180px;
+    background-color: #FFFFFF;
+    color: #ad8b3a;
+    position: relative;
+    top:13px;
+    left: 200px;
+    display:flex
+}
+.pic{
+    width:100px;
+    position:relative;
+}
+.grp1{
+    display:flex;
+    margin-top:3px;
+    width:70px;
+    position : relative;
+    justify-content: space-between;
+}
+.pic2{
+    position : relative;
+    left:13px;
+
+}
+.pic4{
+    position : relative;
+    left:8px;
+    height:20px;
+    width:32px;
+    background-size: contain;
+    background-position: center; 
+    position : relative;
+}
+.grp2{
+    display:flex;
+    left:5px;
+    position : relative;
+    bottom: 5px;
+    top:0.5px
+}
+.pic img{
+    height:17px;
+    width:35px;
+    background-size: contain;
+    background-position: center; 
+    position : relative;
+    
+}
+.pic1{
+    position : relative;
+    left:5px;
+    
+}
+.collage p{
+    margin:10px;
+}
+/* Bar below the text : */
+.bar{
+    
+    width:943px;
+    height:53px;
+    background-color: #FFFFFF;
+    color:rgb(103, 100, 100);
+    position: relative;
+    top:550px;
+    left:180px;
+    font-size: 19px;
+    font-family: Georgia, serif;
+    margin:17px;
+}
+.elementsbr{
+    position: relative;
+    top:15px;
+    display: flex;
+    justify-content: space-between;
+    margin:7px;
+}
+.booknow button{
+    height:53px;
+    background-color: #ad8b3a;
+    border: none;
+    width:137px;
+    position: relative;
+    top:480px;
+    left:1140px;
+    color:#FFFFFF;
+    font-size: 17px;
+}
+.secondbar{
+    height:50px;
+    padding:0px 185px;
+    background-color: #FFFFFF;
+}
+.name{
+    display:flex;
+    justify-content: space-between;
+    color: #384248;
+    padding:21px 4.3px 18px 0px;
+}
+.emptybar{
+    height:78px;
+    padding:7.5px 165px 7.5px 180px;  
+}
+.two{
+    display:flex;
+}
+.empty{
+    width:830px;
+}
+.bold{
+    padding-top: 5px;
+    display:flex;
+}
+.bleh{
+    width:180px;
+    color: black;
+}
+.share p{
+    color: grey;
+}
+/* Cards 1:  */
+.para1{
+    height : 465px;
+    padding:17px 181px 82px 180px;
+    display:flex;
+    justify-content: space-between;
+}
+.crdcontent{
+    width:328px;
+    color:grey
+}
+.crdcontent h2{
+    font-size: 40px;
+    font-family: Cinzel, serif;
+}
+.card1img img{
+    width:647px;
+    height:465px;
+}
+/* Cards 2:  */
+.para2{
+    height:640px;
+    padding : 82px 0px 71px;
+    background-color: #d9d9d9;
+}
+.maan{
+    height: 160px;
+    display:flex;
+    padding: 0px 180px;
+}
+.maan p1{
+    width:1200px;
+    font-size: 50px;
+    font-family: Cinzel, serif;
+    color: rgb(86, 84, 84);
+}
+.maan p2{
+    color: rgb(86, 84, 84);
+    font-size:19px;
+    font-family: Cinzel, serif;
+}
+.pouches{
+    height:435px;
+    display:flex;
+    padding:0px 180px;
+    justify-content: space-between;
+}
+.pouches img{
+    height:356px;
+    width:336px;
+}
+.pouches p{
+    color: rgb(86, 84, 84);
+    font-weight: 400;
+    line-height: 1.70vw;
+    font-family: Cinzel, serif;
+    font-size: 20px;
+    width:336px;
+}
+/* FOOTER AT THE END :  */
+.dotline p{
+    color: #384248;
+    margin:0;
+}
+.footer{
+    height:620px;
+    padding:64px 180px 20px;
+    background-color:black
+}
+.ihcl img{
+    height: 29px;
+    width:84px;
+    background-size: contain;
+}
+.three{
+    height:251px;
+    width:600px;
+    margin-top:30px;
+    
+}
+.bigbox p{
+    color: grey;
+}
+.email{
+    margin-top:40px;
+    display:flex;
+}
+.oye{
+    width:330px;
+}
+.oye p3{
+    color: rgb(178, 177, 177);
+}
+.email p2{
+    font-size:19px;
+    color: grey;
+}
+.subscribe button{
+    width:140px;
+    height:46px;
+    background-color: #bdc1c3;
+    font-size: 14px;
+    color: rgb(49, 47, 47);
+}
+.bookings{
+    height:129px;
+    width:624px;
+    
+}
+.bookings p1{
+    color:grey;
+    size:14px;
+}
+.pgl{
+    display:flex;
+    margin-top:10px;
+    height:23px;
+    color:#FFFFFF;
+    font-size:17px;
+}
+.pgl p2{
+    margin-right: 200px;
+    font-size:17px;
+}
+
+.support{
+    height:129px;
+    width:624px;
+    padding-top: 30px;
+}
+.support p1{
+    color:grey;
+    size:14px;
+}
+.pgl1{
+    display:flex;
+    margin-top:10px;
+    height:23px;
+    color:#FFFFFF;
+    font-size:17px;
+}
+.pgl1 p2{
+    margin-right: 86px;
+    font-size:17px;
+
+}
+.stop1 p{
+    color:grey;
+    
+}
+p9{
+    color:grey;
+}
+.stop2 p{
+    color: grey;  
+}
+.brands{
+    height:120px;
+}
+.brands p{
+    color:#FFFFFF;
+    font-size:19px;
+}
+.imgall{
+    display:flex;
+    justify-content: space-between;
+}
+.pl p{
+    color: grey; 
+}
+.lastn{
+    display :flex;
+}
+.lastn p{
+    padding-top:30px;
+    color:#FFFFFF;
+    font-size:14px;
+    padding-left:40px;
+}
+.div1{
+    display:flex;
+    padding-left:90px;
+}
+.div2{
+    display:flex;
+    padding-left:180px;
+}
+
+
+
+
+
+
+
+
